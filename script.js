@@ -59,4 +59,45 @@ console.log(n, typeof n);
 const m = '112' - 1;
 console.log(m, typeof m);
 const z = '112' - 1 + '11';
-console.log(z, typeof z);
+
+// Boolean type
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 0;
+if (money){
+    console.log("Don't spend money at all");
+}else{
+    console.log("You should find a job now...");
+}
+
+const bankABA = undefined;
+if (bankABA){
+    console.log("Don't spend money at all");
+}else{
+    console.log("You should find a job now...");
+}
+
+const bankACLEDA = 'Chamrouen';
+if (bankACLEDA){
+    console.log("Don't spend money at all");
+}else{
+    console.log("You should find a job now...");
+}
+
+const bankBakong = {};
+if (bankBakong){
+    console.log("Don't spend money at all");
+}else{
+    console.log("You should find a job now...");
+}
+
+const bankSTPN = '';
+if (bankSTPN){
+    console.log("Don't spend money at all");
+}else{
+    console.log("You should find a job now...");
+}
