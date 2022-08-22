@@ -44,3 +44,11 @@ if (BMIMark > BMIJohn){
     console.log("BMIJohn's is higher than BMIMark....");
     console.log(`John's BMI (${BMIJohn.toFixed(1)}) is higher than Mark's (${BMIMark.toFixed(1)})`);
 }
+
+// Type conversion
+const inputYear = '1998';
+console.log(inputYear);
+console.log(typeof inputYear);
+console.log(Number(inputYear));
+console.log(typeof (Number(inputYear)));
+console.log(String(23), 23);
