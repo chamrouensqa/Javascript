@@ -52,3 +52,11 @@ console.log(typeof inputYear);
 console.log(Number(inputYear));
 console.log(typeof (Number(inputYear)));
 console.log(String(23), 23);
+
+// Type coercion
+const n = '1' + 1 + "2";
+console.log(n, typeof n);
+const m = '112' - 1;
+console.log(m, typeof m);
+const z = '112' - 1 + '11';
+console.log(z, typeof z);
