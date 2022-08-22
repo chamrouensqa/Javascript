@@ -101,3 +101,14 @@ if (bankSTPN){
 }else{
     console.log("You should find a job now...");
 }
+
+// Equality Operator
+const favouriteNum = prompt("What is your favourite number?");
+
+if(favouriteNum == '24'){
+    console.log("That is your birthday....");
+}else if(favouriteNum === '25') {
+    console.log("That is your real birthday...")
+} else {
+    console.log("Nothing happen here....")
+}
