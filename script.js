@@ -24,3 +24,23 @@ if(birthYear <= 2000){
     century = 21;
 }
 console.log(`Your birthday century is ${century}`);
+
+// Exercise Practice
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / heightJohn ** 2;
+
+console.log(`BMIMark is ${BMIMark}`);
+console.log(`BMIJohn is ${BMIJohn}`);
+
+if (BMIMark > BMIJohn){
+    console.log("BMIMark's is higher than BMIJohn....");
+    console.log(`Mark's BMI (${BMIMark.toFixed(1)}) is higher than John's (${BMIJohn.toFixed(1)})`);
+}else{
+    console.log("BMIJohn's is higher than BMIMark....");
+    console.log(`John's BMI (${BMIJohn.toFixed(1)}) is higher than Mark's (${BMIMark.toFixed(1)})`);
+}
