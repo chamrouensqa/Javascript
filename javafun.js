@@ -39,3 +39,8 @@ if (day === 'monday'){
 
 const name = 'John';
 console.log(`I am ${2022-1998} year old, ${name}`);
+
+// Short form of codition age to drink acohole
+const age = 11;
+age >= 18 ? console.log("You can drink acohole as normal") : 
+console.log("You only allow to drink water");
