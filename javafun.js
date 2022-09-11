@@ -44,3 +44,11 @@ console.log(`I am ${2022-1998} year old, ${name}`);
 const age = 11;
 age >= 18 ? console.log("You can drink acohole as normal") : 
 console.log("You only allow to drink water");
+
+let drink2;
+if (age >= 18){
+    drink2 = "Please drink wine";
+} else{
+    drink2 = "Please drink water";
+}
+console.log(drink2);
